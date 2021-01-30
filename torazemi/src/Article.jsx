@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import LikeButton from "./LikeButton";
 
 const Article = (props) => {
@@ -12,9 +12,9 @@ const Article = (props) => {
         id="check"
         onClick={() => props.toggle()}
       />
-      <LikeButton coutnt={props.count} />
+      <LikeButton count={props.count} />
     </div>
-  );
+  )
 };
 
 export default Article;
