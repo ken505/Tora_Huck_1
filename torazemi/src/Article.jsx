@@ -12,7 +12,7 @@ const Article = (props) => {
     <div>
       <h2>{props.title}</h2>
       <p>順番は{props.order}です。</p>
-      <p>著者 : {props.authorName}</p>
+      <p>著者 : {props.author}</p>
       <p>{publishState}</p>
     </div>
   );
