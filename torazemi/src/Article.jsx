@@ -13,7 +13,7 @@ const Article = (props) => {
         id="check"
         onClick={() => togglePublished(!isPublished)}
       />
-      <LikeButton count={props.count} />
+      <LikeButton />
     </div>
   );
 };
